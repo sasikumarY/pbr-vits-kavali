@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .footer-container::before{
     content: "";
@@ -33,6 +34,7 @@
     column-gap: 30px;
     justify-content: center;
     align-items: center;
+   
     /* text-transform: capitalize; */
 }
 .footer-container .footer-link{
@@ -84,6 +86,13 @@ column-gap: 10px;
     align-items: center;
     line-height: 24px;
 }
-a{
+.footer-container a {
     color: var(--clr-white);
+}
+
+.footer-container .footer-links{
+    padding: 0px;
+}
+.footer-container .social-links{
+    padding: 0px;
 }

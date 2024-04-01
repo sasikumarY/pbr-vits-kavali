@@ -97,12 +97,19 @@
 }
 
 /* our facilities section card styles */
+.our-facilities-container{
+  padding-bottom:50px ;
+}
+.title{
+  padding-top: 50px;
+}
 .each-facility {
     width: 100%;
     background: var(--clr-white);
     border-radius: var(--radius);
     box-shadow: var(--box-shadow-light);
     transition: var(--transition);
+    
   }
   .each-facility:hover {
     box-shadow: var(--box-shadow-dark);
